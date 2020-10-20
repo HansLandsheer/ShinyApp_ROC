@@ -9,7 +9,7 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            p("The intersection point is equal to the optimal threshold at which the sum of Sensitivity and Specificity (Se + Sp) is maximized,
+            p("The point of intersection is equal to the optimal threshold at which the sum of Sensitivity and Specificity (Se + Sp) is maximized,
                and the sum of errors (FNR + FPR) is minimized. You manipulate the percentage of errors with the sliders."),
             sliderInput("FNR",
                         "False Negative Rate: Percentage of true patients with test scores below the intersection (1 - Se):",
